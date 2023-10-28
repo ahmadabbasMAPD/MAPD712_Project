@@ -12,7 +12,7 @@ const PatientProfile = ({name, age, gender, address}) => (
     </View>
   </View>
 );
-
+// PatientDetails 
 const PatientDetails = ({ navigation }) => {
   
     const [isLoading, setLoading] = useState(true);
