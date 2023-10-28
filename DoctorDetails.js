@@ -2,6 +2,8 @@ import React from 'react';
 import { View, Text, Image, Button, TouchableOpacity, StyleSheet } from 'react-native';
 import ProfilePic from './assets/profile_image.jpeg'; 
 
+
+// added doctor details
 const DoctorDetails = ({ navigation }) => {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
