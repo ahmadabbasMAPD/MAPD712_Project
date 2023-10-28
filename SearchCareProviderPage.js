@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Image, TextInput, TouchableOpacity } from 'react-native';
-
+// added care providers
 const FitnessCoach = ({ navigation }) =>  {
   return (
     <View>
@@ -76,6 +76,7 @@ const FitnessCoach = ({ navigation }) =>  {
         </View>
       </View>
 
+    
       {/* Search bar */}
       <TextInput
         placeholder="Search"
