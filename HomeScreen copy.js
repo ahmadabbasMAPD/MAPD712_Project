@@ -1,6 +1,8 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native';
 
+
+// added HomeScreen
 const HomeScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
@@ -18,7 +20,7 @@ const HomeScreen = ({ navigation }) => {
     </View>
   );
 };
-
+// Added Styles 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
